@@ -1,7 +1,11 @@
-package com.company.ThreeMonthPrepKit.WeekOne;
+package com.company.ThreeMonthPrepKit.Week1;
 
 public class TimeConversion {
+
+//    https://www.hackerrank.com/challenges/three-month-preparation-kit-time-conversion/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-one
+
     //  48 = 0, 49= 1, 50 = 2 <- char values
+
     public static String timeConversion(String s) {
         char[] result = s.toCharArray();
         if(s.charAt(8) == 65){ // checks for the letter 'A'

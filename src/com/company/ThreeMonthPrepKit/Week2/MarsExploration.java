@@ -1,6 +1,8 @@
-package com.company.ThreeMonthPrepKit.WeekTwo;
+package com.company.ThreeMonthPrepKit.Week2;
 
 public class MarsExploration {
+
+//    https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
 
     public static int marsExploration(String s) {

@@ -1,4 +1,4 @@
-package com.company.ThreeMonthPrepKit.WeekTwo;
+package com.company.ThreeMonthPrepKit.Week2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,6 +6,8 @@ import java.util.Map;
 public class Pangrams {
 
     public static String pangrams(String s) {
+
+//        https://www.hackerrank.com/challenges/three-month-preparation-kit-pangrams/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-two
 
         Map<Character, Integer> freq = new HashMap<>();
         int letters = 0;
