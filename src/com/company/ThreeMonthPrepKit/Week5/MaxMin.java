@@ -10,8 +10,14 @@ public class MaxMin {
     public static int maxMin(int k, List<Integer> arr) {
 
         Collections.sort(arr);
+        int result = arr.get(arr.size() - 1);
 
-        return arr.get(k - 1) - arr.get(0);
+        for(int i = 0, j = k - 1; i < arr.size() - (k - 1); i++, j++){
+            if((arr.get(j) - arr.get(i)) < result)
+                result = (arr.get(j) - arr.get(i));
+        }
+
+        return result;
 
     }
 }
