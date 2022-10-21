@@ -6,6 +6,8 @@ import java.util.Map;
 
 public class BirthdayCakeCandles {
 
+//    https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
     public static int birthdayCakeCandles(List<Integer> candles) {
         int maxNumber = 0;
         Map<Integer, Integer> freq = new HashMap<>();
