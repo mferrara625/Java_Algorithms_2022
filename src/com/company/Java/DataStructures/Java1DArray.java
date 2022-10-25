@@ -8,6 +8,8 @@ public class Java1DArray {
 
     public class Solution {
 
+//        https://www.hackerrank.com/challenges/java-1d-array-introduction/problem
+
         public static void java1DArray() {
 
             Scanner scan = new Scanner(System.in);
