@@ -4,6 +4,8 @@ import java.util.List;
 
 public class DiagonalDifference {
 
+//    https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
+
     public static int diagonalDifference(List<List<Integer>> arr) {
         // Write your code here
         int leftToRight = 0;

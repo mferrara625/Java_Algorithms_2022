@@ -2,6 +2,8 @@ package com.company.Algorithms.Implementation;
 
 public class BeautifulDaysAtTheMovies {
 
+//    https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
+
     public static int beautifulDays(int i, int j, int k) {
         // Write your code here
         int count = 0;

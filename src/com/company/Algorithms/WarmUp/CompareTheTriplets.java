@@ -5,6 +5,8 @@ import java.util.List;
 
 public class CompareTheTriplets {
 
+//    https://www.hackerrank.com/challenges/compare-the-triplets/problem
+
     public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         // Write your code here
         List<Integer> result = new ArrayList();

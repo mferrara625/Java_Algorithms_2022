@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 public class Staircase {
 
+//    https://www.hackerrank.com/challenges/staircase/problem
+
     public static void staircase(int n) {
         // Write your code here
 
