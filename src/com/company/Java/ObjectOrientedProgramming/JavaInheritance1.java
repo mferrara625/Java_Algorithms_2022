@@ -7,7 +7,7 @@ import java.math.*;
 import java.util.regex.*;
 public class JavaInheritance1 {
 
-
+//    https://www.hackerrank.com/challenges/java-inheritance-1/problem
 
     class Animal{
         void walk()

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class JavaStringReverse {
 
+//    https://www.hackerrank.com/challenges/java-string-reverse/problem
+
     public static void javaStringReverse() {
         String result = "Yes";
         Scanner sc=new Scanner(System.in);

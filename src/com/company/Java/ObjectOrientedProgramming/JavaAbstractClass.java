@@ -2,6 +2,8 @@ package com.company.Java.ObjectOrientedProgramming;
 
 public class JavaAbstractClass {
 
+//    https://www.hackerrank.com/challenges/java-abstract-class/problem
+
     abstract class Book{
         String title;
         abstract void setTitle(String s);
