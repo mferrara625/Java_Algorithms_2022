@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class JavaStdinAndStdout2 {
 
+//    https://www.hackerrank.com/challenges/java-stdin-stdout/problem?isFullScreen=true
+
     public static void javaStdinStdout2() {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();

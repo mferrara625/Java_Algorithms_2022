@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class JavaDatatypes {
 
+//    https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
+
     public static void javaDataTypes() {
 
         Scanner sc = new Scanner(System.in);

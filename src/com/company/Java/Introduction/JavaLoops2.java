@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class JavaLoops2 {
 
+//    https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
+
     public static void javaLoops2(){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();

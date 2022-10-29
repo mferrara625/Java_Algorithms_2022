@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 
 public class JavaLoops1 {
 
+//    https://www.hackerrank.com/challenges/java-loops-i/problem?isFullScreen=true
+
     public static void javaLoops1() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

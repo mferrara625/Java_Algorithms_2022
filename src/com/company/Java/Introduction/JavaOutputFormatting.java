@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class JavaOutputFormatting {
 
+//    https://www.hackerrank.com/challenges/java-output-formatting/problem?isFullScreen=true
+
     public static void javaOutputFormatting() {
         Scanner sc=new Scanner(System.in);
         System.out.println("================================");
