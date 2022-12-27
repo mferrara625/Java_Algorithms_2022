@@ -1,4 +1,4 @@
-package com.company.Java.Strings;
+package com.company.Algorithms.Strings;
 
 public class MarsExploration {
 
