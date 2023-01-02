@@ -12,6 +12,7 @@ public class DesignerPDFViewer {
             if(h.get(c - 97) > tallest)
                 tallest = h.get(c - 97);
         }
+
         return tallest * word.length();
     }
 }
