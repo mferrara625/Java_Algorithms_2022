@@ -12,7 +12,7 @@ public class MinimumDistances {
         for(int i = 0; i < a.size(); i++){
             for(int j = (i + 1); j < a.size(); j++){
 
-                if(a.get(j) - a.get(i) == 0){ /* compares each number in the list, one at a time, to all the succeeding numbers in the list and looks for a match*/
+                if(a.get(j).equals(a.get(i))){ /* compares each number in the list, one at a time, to all the succeeding numbers in the list and looks for a match*/
 
                     if((j - i) < minDist){
                         minDist = (j - i);
