@@ -12,7 +12,7 @@ public class CaesarCipher {
         for(char c : s.toCharArray()){
             char temp = c;
             if((c >= 65 && c <= 90) || (c >= 97 && c <= 122)){
-                if((c > 90 - k && c <= 90) || (c > 122 - k && c <= 122)){
+                if((c > 90 - k && c <= 90) || (c > 122 - k)){
                     temp -= 26;
                 }
                 temp += k;
