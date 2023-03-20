@@ -11,24 +11,17 @@ public class GridChallenge {
     public static String gridChallenge(List<String> grid) {
         List<String> sortedGrid = new ArrayList<>();
         for(String s : grid){
-            List<Character> sorted = new ArrayList<>();
-            char[] toSort = s.toCharArray();
-            for(char c : toSort){
-                sorted.add(c);
-            }
-            Collections.sort(sorted);
-            String toAdd = "";
-            for(char c : sorted){
-                toAdd += String.valueOf(c);
-            }
-            sortedGrid.add(toAdd);
+            List<Character> charList = new ArrayList<>();
+            for(char c : s.toCharArray())
+                charList.add(c);
+            Collections.sort(charList);
+            sortedGrid.add(charList.toString());
+            charList.clear();
         }
-        for(int i = 0; i < sortedGrid.size() - 1; i++){
-            for(int j = 0; j < sortedGrid.get(i).length() - 1; j++){
-
-                if(sortedGrid.get(j).charAt(i) > sortedGrid.get(j + 1).charAt(i)){
+        for(int i = 0; i < sortedGrid.get(0).length(); i++){
+            for(int j = 0; j < sortedGrid.size() - 1; j++){
+                if(sortedGrid.get(j).charAt(i) > sortedGrid.get(j + 1).charAt(i))
                     return "NO";
-                }
             }
         }
 
