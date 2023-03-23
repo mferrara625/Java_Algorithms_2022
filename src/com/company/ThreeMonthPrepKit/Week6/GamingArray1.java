@@ -8,16 +8,20 @@ public class GamingArray1 {
 //    https://www.hackerrank.com/challenges/three-month-preparation-kit-an-interesting-game-1/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D=three-month-week-six
 
     public static String gamingArray(List<Integer> arr) {
-        boolean isBobsTurn = true;
-        while(!arr.isEmpty()){
-            arr = arr.subList(0, arr.indexOf(Collections.max(arr)));
-            isBobsTurn = !isBobsTurn;
+        int count = 0;
+        int max = arr.get(0);
+
+        for(int i = 1; i < arr.size(); i++){
+            if(arr.get(i) > max){
+                max = arr.get(i);
+                count++;
+            }
         }
 
-        if(isBobsTurn)
-            return "ANDY";
+        if(count % 2 == 0)
+            return "BOB";
 
-        return "BOB";
+        return "ANDY";
 
     }
 }
