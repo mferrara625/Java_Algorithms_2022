@@ -12,7 +12,7 @@ public class ModifiedKaprekarNumbers {
             int n1 = 0;
             String s = Long.toString(n);
             String s1 = s.substring(0,s.length()/2);
-            String s2 = s.substring(s.length()/2,s.length());
+            String s2 = s.substring(s.length()/2);
             if(s.length() > 1){
                 n1 = Integer.parseInt(s1);
             }
