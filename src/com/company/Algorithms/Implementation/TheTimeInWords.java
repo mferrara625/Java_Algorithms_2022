@@ -7,7 +7,7 @@ public class TheTimeInWords {
     public static String timeInWords(int h, int m) {
         String result="";
         String []Ones={"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve"};
-        String[] tens={"zero","ten","twenty","thirty","fourty","fifty","sixty"};
+        String[] tens={"zero","ten","twenty","thirty","forty","fifty","sixty"};
         String [] elevens={"zero","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
         if(m==0){
             result=Ones[h]+" o' clock";
