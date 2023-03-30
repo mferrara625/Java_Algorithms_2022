@@ -7,7 +7,7 @@ import java.math.BigInteger;
 
 public class JavaPrimalityTest {
 
-
+//    https://www.hackerrank.com/challenges/java-primality-test/problem?isFullScreen=true
 
     public static void primalityTest() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
