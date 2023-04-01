@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class JavaRegex2DuplicateWords {
 
-
+//    https://www.hackerrank.com/challenges/duplicate-word/problem?isFullScreen=true
 
     public static void main(String[] args) {
 
