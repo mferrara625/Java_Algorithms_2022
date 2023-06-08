@@ -1,5 +1,8 @@
 package com.company.Algorithms.Implementation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GradingStudents {
 
 //    https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
@@ -18,7 +21,6 @@ public class GradingStudents {
                     }
                 }
                 if(wasAdded){
-                    wasAdded = false;
                     continue;
                 }
             }
